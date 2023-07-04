@@ -18,8 +18,8 @@ function Sidebar({ personalData }) {
       </div>
       <h1 className='mb-2 text-center'>{name}</h1>
       <h2 className='mb-8 text-white'>{role}</h2>
-      <p className='mb-2 text-white'>{education[0]}</p>
-      <p className='mb-2 text-white'>{education[1]}</p>
+      <p className='mb-2 text-center text-white'>{education[0]}</p>
+      <p className='mb-2 text-center text-white'>{education[1]}</p>
       <div className='text-center mb-4 mt-4'>
         <h3 className=' text-white'>CONTACT ME</h3>
         <div className='flex justify-center gap-3'>
