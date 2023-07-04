@@ -16,8 +16,8 @@ module.exports = {
       "green-light": "#E2F5E1",
     },
     fontFamily: {
-			sans: ["Georgia", "sans-serif"],
-			serif: ["Merriweather", "serif"],
+			sans: ["Lato", "sans-serif"],
+			serif: ["Lato", "serif"],
 			display: ["Roboto", "sans-serif"],
 		},
     fontSize: {

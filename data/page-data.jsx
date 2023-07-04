@@ -1,23 +1,22 @@
 export const personalData = {
-	name: "Martin Gonzalez",
+	name: "Martín González",
 	role: "Full Stack Developer",
 	education: [
-		"Bachelor of Science in Computer Science, University of Oxford(2015-2019)",
-		"Master of Science in Artificial Intelligence, Imperial College London (2019-2021)",
+		"Marketing Technician, IES Siglo 21(2016-2019)",
+		"Full Stack Web Developer, Digital House(2022-2023)",
 	],
 	contactLinks: [
-		"mailto:emailto:time2code@gmail.com",
-		"https://twitter.com/time_tocode",
-		"https://linkedin.com/aliciarodriguezLi",
-		"https://medium.com/@time2code.ali",
+		"mailto:martingonzalezachaval@gmail.com",
+		"https://github.com/martingonz96",
+		"https://www.linkedin.com/in/mart%C3%ADn-gonz%C3%A1lez-achaval/",
 	],
 };
 
 export const aboutMe = {
 	title: "About Me",
 	body: [
-		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
-		"When I'm not working, I love hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
+		"As an experienced media buyer with over five years in the industry, I have recently decided to embark on a new path that aligns with my passion for programming and the limitless possibilities it offers. My background as a media buyer, coupled with my full stack web development skills, gives me a unique advantage as a full stack web developer.",
+		"Throughout my career, I have honed a diverse range of qualities that make me a valuable asset to any team. I am persistent, always striving to overcome challenges and find innovative solutions. As a team player, I thrive in collaborative environments, leveraging the strengths of my colleagues to achieve collective success. My creativity fuels my problem-solving abilities, allowing me to think outside the box and develop unique solutions. I am naturally curious, constantly seeking to expand my knowledge and stay up to date with the latest trends and technologies. Additionally, I am an active listener, valuing the input and perspectives of others to create well-rounded and impactful solutions.",
 	],
 };
 
@@ -27,16 +26,16 @@ export const skills = {
 		{ icon: "💬", text: "Effective Communication" },
 		{ icon: "👥", text: "Collaboration" },
 		{ icon: "⽓", text: "Teamwork" },
-		{ icon: "💡", text: "Creative Problem Solving" },
-		{ icon: "⌛️", text: "Time management" },
+		{ icon: "💪", text: "Persistent" },
 	],
 	hard: [
-		{ icon: "💻", text: "Python" },
-		{ icon: "ʦ", text: "TypeScript" },
-		{ icon: "🚀", text: "React" },
+		{ icon: "💻", text: "NodeJs" },
+		{ icon: "📜", text: "Javascript" },
+		{ icon: "⚛️", text: "React" },
 		{ icon: "💾", text: "SQL" },
-		{ icon: "💾", text: "noSQL" },
-		{ icon: "📈", text: "Data Structures and Algorithms" },
+		{ icon: "🍃", text: "Mongo DB" },
+		{ icon: "⚙️", text: "Express Js" },
+		{ icon: "🖌️", text: "Tailwind CSS" }
 	],
 };
 
@@ -44,23 +43,62 @@ export const professionalData = {
 	title: "Professional Experience",
 	experiences: [
 		{
-			role: "Data Scientist, Acme Inc. (2021-Present)",
+			role: "Media Buyer (2022-Present)",
 			description:
-				"Design and implement machine learning models to analyze large datasets and drive business decisions. Collaborate with cross-functional teams to develop and launch new products and features. Provide technical guidance and mentorship to junior data scientists. Conduct regular presentations to stakeholders on the findings and insights generated from data analysis.",
+				"Design and implement Facebook, Youtube and Google ads Lead Generation campaigns, do weekly and monthly reports and optimize strategies",
 			current: true,
 		},
 
 		{
-			role: "Machine Learning Engineer, XYZ Corp. (2019-2021)",
+			role: "Full Stack Web Developer, Digital House(2022-2023)",
 			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
+				"Do a Full Stack Project, implementing ExpressJs, MySQL, React, APIs, CRUD and MVC methodology. Collaborate in the backend and frontend of the project",
 			current: false,
-		},
-		{
-			role: "Machine Learning Engineer, ABX Corp. (2020-2021)",
-			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
-			current: false,
-		},
+		}
 	],
 };
+
+export const projects = [
+		{
+			title: "UpTask - MERN Project",
+
+			img: 'uptask.png',
+			
+			description: 'Full Stack MERN Project, using NextJs, React, NodeJs, ExpressJs, Mongoose, MongoDB, Tailwind CSS. With validations from the backend and frontend for the user, with Authorization method using JWT. CRUD methodolgy implemented',
+
+			link: 'https://github.com/martingonz96/Uptask_MERN_frontend'
+
+		},
+		{
+			title: "Quiosco App",
+
+			img:'caffee-shop.png',
+			
+			description: 'Proyect created wtih NextJs, React, Prisma, TailwindCSS . With sites for the user to make an order and sites for the admin to receive ther order in real time',
+
+			link: 'https://github.com/martingonz96/quioscoapp'
+
+		},
+
+		{
+			title: "CRUD Redux App",
+
+			img:'crud-redux.png',
+			
+			description: 'Proyect created with React, Redux and Bootstrap. CRUD methodology implemented',
+
+			link: 'https://github.com/martingonz96/CRUD_REDUX_REACT'
+
+		},
+
+		{
+			title: "Shoes Wing - Final Project Digital House",
+
+			img:'shoeswing.jpg',
+			
+			description: 'Proyect created with React, Express Js, MySQL, Sequelize, APIs. CRUD methodology implented. MVC structure implemented',
+
+			link: 'https://github.com/martingonz96/grupo_9_Shoeswing'
+
+		},
+	]
