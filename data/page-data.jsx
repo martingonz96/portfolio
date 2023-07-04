@@ -1,6 +1,6 @@
 export const personalData = {
-	name: "Joe Doe",
-	role: "Software Engineer",
+	name: "Martin Gonzalez",
+	role: "Full Stack Developer",
 	education: [
 		"Bachelor of Science in Computer Science, University of Oxford(2015-2019)",
 		"Master of Science in Artificial Intelligence, Imperial College London (2019-2021)",
